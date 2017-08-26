@@ -1,0 +1,227 @@
+
+
+body{
+	background:#f6f6f6;
+}
+
+.header .head-mid, .slider .slider-mid, .welcome, .ourskills , .ourteam{
+	width:90%;
+	margin:0 auto;
+}
+
+.header .head-mid{
+	overflow: hidden;
+}
+
+.header .logo{
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+	background:url(../img/logo.png) no-repeat center;
+	float: left;
+	margin-top: 29.5px;
+
+}
+
+.header .menu{
+	float: right;
+}
+
+.header .menu li{
+	float: right;
+	line-height: 26px;
+	height: 85px;
+	margin: 45px 0px 45px 50px;
+}
+
+.header .menu li a{
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	height: 26px;
+	padding: 27px 9px;
+}
+
+.header .menu li a:hover{
+	background:#ffea00;
+}
+
+.slider{
+	position: relative;
+}
+
+.slider .top-img{
+	width: 100%;
+	height:150px;
+}
+
+.slider .about{
+	width: 297px;
+	height: 71px;
+	line-height: 71px;
+	position: absolute;
+	font-size: 35px;
+	color:#ffea00;
+	background:#424146;
+	top:40px;
+	padding-left:23px;
+	cursor: pointer;
+}
+
+
+.welcome{
+	margin-top: 60px;
+	position: relative;
+}
+
+.welcome .left,.welcome .right{
+	
+	height: 353px;
+}
+
+.welcome .left{
+	width: 500px;
+	position: absolute;
+	background:url(../img/our-team.png) no-repeat center;
+	left: 0px;
+}
+
+.welcome .right{
+	margin-left: 531px;
+	overflow: hidden;
+}
+.welcome .title{
+	font-size: 30px;
+	color: #424146;
+}
+
+.welcome .tips{
+	margin-top: 20px;
+	line-height: 22px;
+	font-size: 16px;
+	color: #424146;
+}
+
+.welcome .content li{
+	height: 239px;
+	float: left;
+	width: 48%;
+	font-size: 15px;
+	line-height: 30px;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.welcome .content .twice{
+	margin-left: 4%;
+}
+
+.ourskills{
+	margin-top:80px;
+}
+
+.ourskills .skill-title,.ourteam .team-title{
+	width: 159px;
+	height: 31px;
+	margin:0 auto;
+	color:#ffea00;
+	font-size:18px;
+	line-height: 31px;
+	background:#424146;
+	text-align: center;
+}
+
+.ourskills .skill-tips, .ourskills .skill-footer, .ourteam .team-tips{
+	font-size: 16px;
+	line-height: 21px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.ourskills .skill-box{
+	width: 70%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.ourskills .skill-bar{
+	width: 50%;
+	height: 36px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+
+.ourskills .skill-bar .percent{
+	position: absolute;
+	width: 46px;
+	height: 100%;
+	background:#000;
+	font-size: 17px;
+	color: #ffea00;
+	margin-right: 2px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.ourskills .skill-bar .bar-box{
+	margin-left: 48px;
+	height: 100%;
+	background:#424147;
+}
+
+.ourskills .left .bar-box{
+	margin-right: 15px;
+}
+
+.ourskills .right .percent{
+	margin-left: 15px;
+}
+
+.ourskills .right .bar-box{
+	margin-left: 63px;
+}
+
+.ourskills .skill-bar .bar-percent{
+	height: 100%;
+	background: #ffea00;
+	line-height: 36px;
+	font-size: 17px;
+	text-indent: 10px;
+}
+
+.ourskills .skill-footer{
+	margin:38px 0px 27px 0px;
+}
+
+.ourteam{
+	//width: 80%;
+	overflow: hidden;
+}
+
+.ourteam .team-box{
+	float: left;
+	width: 25%;
+	height: 235px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.ourteam .team-box img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.ourteam .team-box .pantner-name{
+	margin:10px auto 0px auto;
+	width: 200px;
+	height: 21px
+	font-size: 16px;
+	color: #ffea00;
+	background: #424147;
+	text-align: center;
+	line-height: 21px;
+
+}
